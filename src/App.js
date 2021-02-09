@@ -39,6 +39,11 @@ const App = () => {
         <PriceCard type="high" price={ticker.high} />
         <PriceCard type="current" price={ticker.last} />
       </div>
+      <p>
+        Dogecoin price updated every 10 seconds seconds from{' '}
+        <a href="https://wazirx.com/">WazirX API</a>
+      </p>
+
   </div>
   ) 
 };
