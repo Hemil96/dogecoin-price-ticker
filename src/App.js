@@ -15,7 +15,7 @@ const App = () => {
   useEffect(() => {
     async function getDogecoinPrice() {
       const { data } = await axios.get(
-        'https://nitinr-cors.herokuapp.com/https://api.wazirx.com/api/v2/tickers/dogeusdt'
+        'https://doge-coin.herokuapp.com/'
       );
       setTicker(data.ticker);
     }
